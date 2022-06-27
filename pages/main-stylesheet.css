@@ -292,15 +292,62 @@ h2 {
   width: 90%;
   }
   
-  .grid-container > div {
-      font-size: 15px;
-    }
+.grid-container > div {
+ font-size: 15px;
+}
 
-    .grid-item{
-        padding: 10px;
-        grid-column-gap: 20px;
-    }
+.grid-item{
+  padding: 10px;
+  grid-column-gap: 20px;
+}
   
-.container-content{
-  margin: 1rem;
+
+/* movies css */
+
+.padding-box {
+  padding: 12px;
+}
+
+.heading--module {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -.4px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.movie-tb {
+  background-color: #eea849;
+  display: grid;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  padding: 32px;
+}
+    
+.movie-tb p {
+  font-size: 18px;
+  color: white;
+  text-align: left;
+}
+    
+.movie-tb .card {
+  background-color: #FEF9A7;
+  color: black;
+  text-align: center;
+  height: 200px;
+}
+    
+.card p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px;
+}
+    
+.card .title {
+  font-size: 18px;
+  text-align: center;
 }
