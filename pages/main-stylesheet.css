@@ -346,8 +346,30 @@ h2 {
   font-size: 14px;
   padding: 5px;
 }
-    
+
 .card .title {
   font-size: 18px;
   text-align: center;
+}
+
+/* cinemas page */
+
+.cinema-locations {
+  margin: 0;
+  padding: 40px 60px;
+  display: block;
+  border: none;
+  line-height: 1.3em;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.auckland-details, .wellington-details {
+  padding-bottom: 10px;
+}
+
+.auckland-details, .wellington-details, .item label {
+  font-weight: bold;
 }
