@@ -467,14 +467,14 @@ span.price {
   min-height: -webkit-calc(100vh - 9rem);
   min-height: -moz-calc(100vh - 9rem);
   min-height: calc(100vh - 9rem);
-  background-color: #333;
+  background-color: #9e4a00;
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
-  background-color: #333;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
+  width: 100%;
 }
 
 .main-block {
@@ -506,9 +506,9 @@ main {
 
 h1, .movie-section h2 {
   width: 100%;
-  background-color: #1c1c1c;
+  background-color: #673000;
   padding: 1em;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 1.125em;
   display: flex;
   justify-content: space-between;
@@ -530,7 +530,6 @@ a {
 }
 
 #showtimes-block {
-  display: block;
   text-align: center;
   width: 100%;
 }
@@ -545,7 +544,7 @@ a {
 }
 
 #showtimes-table th {
-  color: #ccc;
+  color: #ffffff;
   font-weight: 300;
   font-size: .75em;
 }
@@ -555,7 +554,7 @@ table {
   box-sizing: border-box;
   text-indent: initial;
   border-spacing: 2px;
-  border-color: grey;
+  border-color: rgb(218, 166, 45);
 }
 
 tbody {
@@ -590,7 +589,7 @@ button.time-active {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #ccc;
+  background-color: #deb42678;
   border: 2px;
   width: 100%;
   padding: 0.5rem;
