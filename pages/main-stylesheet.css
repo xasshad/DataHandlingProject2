@@ -610,4 +610,5 @@ button.time-active {
   border: 3px solid #e1a552;
   padding: 20px;
   width: 100%;
+  position: bottom;
 }
